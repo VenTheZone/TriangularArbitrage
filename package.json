@@ -1,7 +1,7 @@
 {
   "name": "TriangularArbitrage",
   "version": "0.2.0",
-  "description": "Monitor multiple currencies in a single exchange via websockets to detect triangular arbitrage opportunities.",
+  "description": "Monitor multiple currencies in a single exchange via websockets to detect triangular arbitrage opportunities on Polygon's Uniswap.",
   "main": "index.js",
   "directories": {
     "doc": "docs",
@@ -15,16 +15,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tiagosiebler/TriangularArbitrage.git"
+    "url": "https://github.com/VenTheZone/TriangularArbitrage.git"
   },
-  "author": "Tiago Siebler",
+  "author": "Ven Zone",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tiagosiebler/TriangularArbitrage/issues"
+    "url": "https://github.com/VenTheZone/TriangularArbitrage/issues"
   },
-  "homepage": "https://github.com/tiagosiebler/TriangularArbitrage#readme",
+  "homepage": "https://github.com/VenTheZone/TriangularArbitrage#readme",
   "dependencies": {
-    "binance": "^1.3.5",
+    "web3": "^1.6.0",
     "clui": "^0.3.6",
     "fs": "0.0.1-security",
     "mongodb": "^3.0.1",
